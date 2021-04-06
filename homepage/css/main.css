@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* Component */
+.header__top {
+    width: 100%;
+    height: 200px;
+}
+.header__bottom{
+    height: 60px;
+}
+.banner{
+    width: 980px;
+    height: 250px;
+    background-color: rgb(216 216 216 / 48%);
+    margin: 20px auto;
+    display: flex;;
+}
+.box__row{
+    display: flex;
+    margin-bottom: 15px;
+}
+.box__row-title{
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    padding: 0px 20px;
+    line-height: 21px;
+}
+.box__row-image{
+
+}
+.box__banner{
+    width: 300px;
+    height: 250px;
+    background: rgb(230 230 230 / 45%);
+    /* display: flex; */
+    margin-bottom: 15px;
+}
+.box__col{
+    margin-bottom: 15px;
+}
+.box__col-title{
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    padding: 0px 20px;
+    line-height: 21px;
+    margin-top: 7px;
+}
+.box__col-image{
+    display: flex;
+    justify-content: center;
+}
+.box__banner--modifier{
+    width: 300px;
+    height: 70px;
+    background: rgb(230 230 230 / 45%);
+    /* display: flex; */
+    margin-bottom: 10px;
+}
+.news_slider{
+    width: 100%;
+    min-height: 225px;
+}
+/* End component */
+
+
+
+
+
+
+/* class tái sử dụng__________________________ */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-black{
+    color : black
+}
+.bg-gray{
+    background-color: rgb(216 216 216 / 48%)
+}
+.text-gray {
+    color : rgb(94, 94, 94)
+}
+.text-sm {
+    font-size: 14px;
+}
+.text-lg{
+    font-size: 18px;
+    line-height: 30px;
+}
+.text-xs {
+    font-size: 12px;
+}
+.bg-opacity-50{
+    opacity: .5;
+}
+.my-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.p-0{
+    padding: 0;
+}
+.border-b{
+    border-bottom: 1px solid #6b8dbf;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.w-percent-20{
+    width: 20%;
+}
+.w-205{
+    width: 205px;
+}
+.flex {
+    display: flex;
+}
+.justify-betwen{
+    justify-content: space-between;
+}
+.font-md{
+    font-weight: 600;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.my-5{
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+.pr-10{
+    padding-right: 10px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.w-percent-50{
+    width: 50%;
+}
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.my-10{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.italic {
+    font-style: italic;
+}
+.w-percent-80{
+    width: 80%;
+}
+.w-percent-70{
+    width: 70%;
+}
+.w-percent-40{
+    width: 40%;
+}
+.w-full{
+    width: 100%;
+}
+.h-full{
+    height: 100%;
+}
+.active {
+    border-bottom: 3px solid #6b8dbf;
+}
+
+.mx-auto{
+    margin: 0px auto;
+}
+.my-auto{
+    margin: auto 0px;
+}
+.m-auto{
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.h-50{
+    height: 50px;
+}
+.text-xs{
+    font-size: 12px;
+}
+.rounded-5{
+    border-radius: 5px;
+}
+.rounded-10{
+    border-radius: 10px;
+}
+.rounded-20{
+    border-radius: 20px;
+}
+.w-percent-85{
+    width: 85%;
+}
+.w-percent-75{
+    width: 75%;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.border-gray{
+    border: 1px solid rgb(213 213 213);
+}
+
+.w-40{
+    width: 40px;
+}
+.w-80{
+    width: 80px;
+}
+.w-120{
+    width: 120px;
+}
+.w-180{
+    width: 180px;
+}
+.h-60{
+    height: 60px;
+}
+.px-10{
+    padding: 0px 10px;
+}
+.no-underline{
+    text-decoration: none;
+}
+.list-style-none {
+    list-style: none;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.block{
+    display: block;
+}
+.bg-gray-100{
+    background-color: rgb(244 244 244 / 37%);
+}
+.py-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pr-5{
+    margin-right: 5px;
+}
+.text-blue{
+    color: #6b8dbf
+}
+.w-percent-30{
+    width: 30%;
+}
+.leading-60{
+    line-height: 60px;
+}
+.leading-50{
+    line-height: 50px;
+}
+.leading-55{
+    line-height: 55px;
+}
+.hide{
+    display: none;
+}
+/* end__________________-- */
