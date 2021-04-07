@@ -26,7 +26,7 @@
 .box__row-title{
     font-size: 14px;
     letter-spacing: 0.4px;
-    line-height: 21px;
+    /* line-height: 21px; */
     padding-left: 20px;
 }
 .box__row-image{
@@ -104,6 +104,9 @@
 .mx-20{
     margin-left: 20px;
     margin-right: 20px;
+}
+.w-percent-25{
+    width: 25%;
 }
 .font-35{
     font-size: 35px;
@@ -321,7 +324,7 @@
     display: block;
 }
 .bg-gray-100{
-    background-color: rgb(244 244 244 / 37%);
+    background-color: rgb(244 244 244 / 79%);
 }
 .py-5{
     padding-top: 5px;
@@ -333,6 +336,33 @@
 }
 .pr-5{
     margin-right: 5px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.top-0{
+    top: 0px;
+}
+.top-5{
+    top: 10px;
+}
+.top-10{
+    top: 10px;
+}
+.top-20{
+    top: 20px;
+}
+.bottom-0{
+    bottom: 0px;
+}
+.bottom-10{
+    bottom: 10px;
+}
+.bottom-20{
+    bottom: 20px;
 }
 .text-blue{
     color: #6b8dbf
