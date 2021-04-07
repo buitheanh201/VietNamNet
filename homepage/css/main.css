@@ -26,8 +26,8 @@
 .box__row-title{
     font-size: 14px;
     letter-spacing: 0.4px;
-    padding: 0px 20px;
     line-height: 21px;
+    padding-left: 20px;
 }
 .box__row-image{
 
