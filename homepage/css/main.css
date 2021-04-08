@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&display=swap');
 
 /* Component */
 .header__top {
@@ -29,8 +29,23 @@
     /* line-height: 21px; */
     padding-left: 20px;
 }
+/* .box__row-title>p>a{
+    font-weight: 500;
+} */
 .box__row-image{
 
+}
+/* .box__col>div:last-child>p>a{
+    font-weight: 500;
+} */
+.nav>li>a{
+    font-weight: 700;
+}
+.slider-2{
+    overflow: hidden;
+}
+.slider-2>div{
+    min-width: 30%;
 }
 .box__banner{
     width: 300px;
@@ -41,7 +56,15 @@
 }
 .box__col{
     margin-bottom: 15px;
+    width: 300px;
 }
+.box__col>div>img{
+    height: 200px;
+}
+.h-full{
+    height: 100% !important;
+}
+
 .box__col-title{
     font-size: 14px;
     letter-spacing: 0.4px;
@@ -162,12 +185,21 @@
 .w-300{
     width: 300px;
 }
+.right-0{
+    right: 0px;
+}
+.right-10{
+    right: 10px;
+}
 .w-percent-60{
     width: 60%;
 }
 .mx-20{
     margin-left: 20px;
     margin-right: 20px;
+}
+.text-red{
+    color: rgb(180, 3, 3);
 }
 .w-percent-25{
     width: 25%;
@@ -189,7 +221,7 @@
     padding-top: 10px;
 }
 .pt-20{
-    padding-top: 20px;
+    padding-top: 20px !important;
 }
 .bg-gray{
     background-color: rgb(216 216 216 / 48%)
