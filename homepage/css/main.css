@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
 @font-face {
     font-family: lora-medium;
     src: url('./../fonts/Lora-Medium.ttf');
+}
+@font-face {
+    font-family: lora-bold;
+    src: url('./../fonts/Lora-Bold.ttf');
 }
 @font-face {
     font-family: lora-regular;
@@ -28,6 +31,39 @@
     font-family: notosan-mediumItalic;
     src: url('./../fonts/NotoSans-MediumItalic_2.ttf');
 }
+
+
+/* Use font __________________________ */
+.lora-bold{
+    font-family: lora-bold;
+}
+.lora-medium{
+    font-family: lora-medium;
+}
+.lora-regular{
+    font-family: lora-regular;
+}
+.notosan-bold{
+    font-family: notosan-bold;
+}
+.notosan-italic{
+    font-family: notosan-italic;
+}
+.notosan-medium{
+    font-family: notosan-medium;
+}
+.notosan-regular{
+    font-family: notosan-regular;
+}
+.notosan-mediumItalic{
+    font-family: notosan-mediumItalic;
+}
+/* end use font __________________________ */
+
+
+
+
+
 /* Custom slick dot___________________ */
 .slick-dots{
     position: absolute;
@@ -70,6 +106,14 @@
 }
 /* End custom slick___________________ */
 
+
+
+
+
+
+
+
+
 /* Component */
 .header__top {
     width: 100%;
@@ -88,26 +132,11 @@
 .main{
     width: 1100px;
 }
-.box__row{
-    display: flex;
-    margin-bottom: 15px;
-}
-.box__row-title{
-    font-size: 14px;
-    letter-spacing: 0.4px;
-    /* line-height: 21px; */
-    padding-left: 20px;
-}
-/* .box__row-title>p>a{
-    font-weight: 500;
-} */
-.box__row-image{
-
-}
 /* Box cols ____________________*/
 .news__boxCol {
     width: 200px;
     min-height: 220px;
+    font-family: lora-medium;
 }
 .news__boxCol-title{
     margin-top: 18px;
@@ -137,10 +166,13 @@
     height: 200px;
 }
 /* End box cols___________________________ */
+
+
 /* Box row_______________________________ */
 .news__box{
     display: flex;
     margin-bottom: 25px;
+    font-family: lora-medium;
 }
 .news__box-content{
     margin-left: 20px;
@@ -178,7 +210,6 @@
     font-size: 16px;
     color: black;
     text-decoration: none;
-    font-weight: 500;
 }
 .show__live-icon .news__box-live{
     display: inline-block;
@@ -220,9 +251,8 @@
     display: none;
 }
 /* End Box row _________________________________*/
-/* .box__col>div:last-child>p>a{
-    font-weight: 500;
-} */
+
+
 .nav>li>a{
     font-weight: 700;
 }
@@ -443,6 +473,12 @@
 }
 .pt-10{
     padding-top: 10px;
+}
+.text-12{
+    font-size: 12px;
+}
+.text-11{
+    font-size: 11px;
 }
 .pt-20{
     padding-top: 20px !important;
