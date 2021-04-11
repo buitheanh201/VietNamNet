@@ -35,7 +35,7 @@
 
 /* Use font __________________________ */
 .lora-bold{
-    font-family: lora-bold;
+    font-family: lora-bold !important;
 }
 .lora-medium{
     font-family: lora-medium;
@@ -206,7 +206,7 @@
 }
 .image__large{
     width: 295px;
-    height: 200px;
+    /* height: 200px; */
 }
 .text-16 .news__box-title>a{
     font-size: 16px;
