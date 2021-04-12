@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
@@ -31,32 +35,37 @@
                     <div class="my-auto">
                         <ul class="flex mr-20 my-auto">
                             <li class="list-style-none">
-                                <a class="block border-gray mr-10 no-underline px-10 rounded-20 text-black text-gray text-xs py-5" href="">
+                                <a class="block border-gray mr-10 no-underline px-10 rounded-20 text-black text-gray text-xs py-5"
+                                    href="">
                                     Tin nóng
                                 </a>
                             </li>
                             <li class="list-style-none">
-                                <a class="block border-gray mr-10 no-underline px-10 rounded-20 text-black text-gray text-xs py-5" href="">
+                                <a class="block border-gray mr-10 no-underline px-10 rounded-20 text-black text-gray text-xs py-5"
+                                    href="">
                                     Tin tức 24H
                                 </a>
                             </li>
                             <li class="list-style-none">
-                                <a class="block border-gray mr-10 no-underline px-10 rounded-20 text-black text-gray text-xs py-5" href="">Liên hệ</a>
+                                <a class="block border-gray mr-10 no-underline px-10 rounded-20 text-black text-gray text-xs py-5"
+                                    href="">Liên hệ</a>
                             </li>
                         </ul>
                     </div>
                     <div class="flex">
-                        <div class="flex my-auto mr-10"><img class="cursor-pointer" src="./pictures/user_icon.png" alt=""></div>
+                        <div class="flex my-auto mr-10"><img class="cursor-pointer" src="./pictures/user_icon.png"
+                                alt=""></div>
                         <div class="flex my-auto"><img class="cursor-pointer" src="./pictures/search_icon.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="border-gray navigation notosan-bold">
+            <div class="border-b border-t navigation notosan-bold">
                 <div class="flex h-50 mx-auto w-percent-85 text-sm">
                     <ul class="flex h-full justify-betwen leading-50 w-full">
                         <li class="list-style-none">
-                            <a class="no-underline text-black font-md font-md" href=""><img src="./pictures/home_icon.png" alt=""></a>
+                            <a class="no-underline text-black font-md font-md" href=""><img
+                                    src="./pictures/home_icon.png" alt=""></a>
                         </li>
                         <li class="list-style-none">
                             <a class="no-underline text-black font-md font-md" href="">Chính trị</a>
@@ -123,19 +132,28 @@
             <!-- Block 1 ______________________________ -->
             <div>
                 <!-- Tag -->
-                <div class="flex h-60 justify-betwen notosan-medium">
-                    <div class="flex my-auto">
+                <div class="tag flex h-60 justify-betwen notosan-medium">
+                    <div class="flex justify-betwen my-auto pr-40 w-800">
                         <div class="flex">
                             <p class="mr-20"><img src="./pictures/traffic_icon.png" alt=""></p>
-                            <p class="text-gray italic mr-10 text-sm">
-                                #kỳ thi vào lớp 10 công lập ở Hà Nội
-                            </p>
-                            <p class="text-gray italic text-sm">
-                                #Vụ án Nhật Cường và cựu Chủ tịch Hà Nội Nguyễn Đức Chung
-                            </p>
+                            <div class="slider_00">
+                                <p class="text-gray italic mr-10 text-sm">
+                                   <a class="no-underline text-gray" href="">#kỳ thi vào lớp 10 công lập ở Hà Nội</a>
+                                </p>
+                                <p class="text-gray italic mr-10 text-sm">
+                                    <a class="no-underline text-gray" href="">  #Vụ án Nhật Cường và cựu Chủ tịch Hà Nội Nguyễn Đức Chung</a>
+                                </p>
+                                <p class="text-gray italic mr-10 text-sm">
+                                    <a class="no-underline text-gray" href="">#kỳ thi vào lớp 10 công lập ở Hà Nội</a>
+                                 </p>
+                                 <p class="text-gray italic mr-10 text-sm">
+                                     <a class="no-underline text-gray" href="">  #Vụ án Nhật Cường và cựu Chủ tịch Hà Nội Nguyễn Đức Chung</a>
+                                 </p>
+                            </div>
                         </div>
-                        <div>
-                            <!-- derectional -->
+                        <div class="flex">
+                            <div class="cursor-pointer mr-10 slick-arrow tag__name-prev"><img  src="./pictures/Vector Smart Object copy 49.png" alt=""></div>
+                            <div class="tag__name-next cursor-pointer"><img src="./pictures/Vector Smart Object.png" alt=""></div>
                         </div>
                     </div>
                     <div class="flex my-auto">
@@ -319,7 +337,8 @@
                         </div>
                         <div class="flex justify-betwen">
                             <div class="news__boxCol">
-                                <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_17.jpg" alt=""></div>
+                                <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_17.jpg" alt="">
+                                </div>
                                 <div class="news__boxCol-content">
                                     <p class="news__boxCol-title">
                                         <a href="">
@@ -339,8 +358,9 @@
                                     <p class="news__box-date">20' trước</p>
                                 </div>
                             </div>
-                            <div class="news__boxCol lora-bold image__large mr-25">
-                                <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_19.jpg" alt=""></div>
+                            <div class="news__boxCol">
+                                <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_19.jpg" alt="">
+                                </div>
                                 <div class="news__boxCol-content">
                                     <p class="news__boxCol-title">
                                         <a href="">
@@ -475,7 +495,7 @@
                         <div class="news__boxCol-content">
                             <p class="news__boxCol-title">
                                 <a href="">
-                                    Bluezone giúp tiết kiệm nguồn lực chống dịch 
+                                    Bluezone giúp tiết kiệm nguồn lực chống dịch
                                     duy trì cuộc sống bình thường
                                 </a>
                                 <span class="news__box-special">
@@ -581,7 +601,7 @@
                         <div class="news__boxCol-content">
                             <p class="news__boxCol-title">
                                 <a href="">
-                                    Bluezone giúp tiết kiệm nguồn lực chống dịch 
+                                    Bluezone giúp tiết kiệm nguồn lực chống dịch
                                     duy trì cuộc sống bình thường
                                 </a>
                                 <span class="news__box-special">
@@ -687,7 +707,7 @@
                         <div class="news__boxCol-content">
                             <p class="news__boxCol-title">
                                 <a href="">
-                                    Bluezone giúp tiết kiệm nguồn lực chống dịch 
+                                    Bluezone giúp tiết kiệm nguồn lực chống dịch
                                     duy trì cuộc sống bình thường
                                 </a>
                                 <span class="news__box-special">
@@ -1057,7 +1077,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
                                             <p class="news__boxCol-title">
                                                 <a href="">
                                                     Thủ tướng Anh: Không nên quá lạc quan về vaccine Covid-19
@@ -1075,7 +1096,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__highLight-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__highLight-icon show__date">
                                             <p class="news__boxCol-title">
                                                 <a href="">
                                                     Đề xuất chuyển hai dự án cao tốc Bắc Nam sang đầu tư công
@@ -1093,7 +1115,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
                                             <p class="news__boxCol-title">
                                                 <a href="">
                                                     Hơn 65 triệu ca toàn cầu, LHQ chỉ trích các nước coi thường Covid-19
@@ -1163,7 +1186,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                             <p class="news__boxCol-title">
                                                 <a href="">
                                                     Dữ liệu hàng loạt hãng bay bị hacker Trung Quốc đánh cắp
@@ -1299,7 +1323,8 @@
                                                     </p>
                                                     <p class="news__box-date">20' trước</p>
                                                 </div>
-                                                <div class="lora-regular mb-20 news__boxCol-content show__date show__highLight-icon">
+                                                <div
+                                                    class="lora-regular mb-20 news__boxCol-content show__date show__highLight-icon">
                                                     <p class="news__boxCol-title">
                                                         <a href="">
                                                             Giá vàng hôm nay 4/12: USD giảm xuống đáy, vàng tăng rực rỡ
@@ -1317,7 +1342,8 @@
                                                     </p>
                                                     <p class="news__box-date">20' trước</p>
                                                 </div>
-                                                <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                                <div
+                                                    class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                                     <p class="news__boxCol-title">
                                                         <a href="">
                                                             Hơn 65 triệu ca toàn cầu, LHQ chỉ trích các nước coi thường
@@ -1555,14 +1581,16 @@
                 </div>
             </div>
             <!-- Block 3 ___________________________________ -->
-            <div class="bg-yellow px-20 py-20 mb-20">
+            <div class="bg-yellow px-20 py-20 mb-20 w-1150 -translateX-20">
                 <div class="mb-10">
                     <img src="./pictures/special_icon.png" alt="" class="w-120">
                 </div>
                 <div class="slider_02">
                     <!-- slider  -->
                     <div class="news__boxCol lora-bold image__large mr-25">
-                        <div class="news__boxCol-image"><img src="https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-dai-dep-quyen-ru-va-de-thuong-nhat-1.jpg" alt=""></div>
+                        <div class="news__boxCol-image"><img
+                                src="https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-dai-dep-quyen-ru-va-de-thuong-nhat-1.jpg"
+                                alt=""></div>
                         <div class="news__boxCol-content mr-20">
                             <p class="news__boxCol-title">
                                 <a href="">
@@ -1583,7 +1611,9 @@
                         </div>
                     </div>
                     <div class="news__boxCol lora-bold image__large mr-25">
-                        <div class="news__boxCol-image"><img src="https://icapi.org/wp-content/uploads/2019/10/hinh-nen-hot-girl-cho-may-tinh-84-534x462.jpg" alt=""></div>
+                        <div class="news__boxCol-image"><img
+                                src="https://icapi.org/wp-content/uploads/2019/10/hinh-nen-hot-girl-cho-may-tinh-84-534x462.jpg"
+                                alt=""></div>
                         <div class="news__boxCol-content mr-20">
                             <p class="news__boxCol-title">
                                 <a href="">
@@ -1626,7 +1656,8 @@
                     </div>
                     <div class="news__boxCol lora-bold image__large mr-25">
                         <div class="news__boxCol-image">
-                            <img src="https://thethao99.com/wp-content/uploads/2020/04/gai_goi_thiendia.com_.png" alt="">
+                            <img src="https://thethao99.com/wp-content/uploads/2020/04/gai_goi_thiendia.com_.png"
+                                alt="">
                         </div>
                         <div class="news__boxCol-content mr-20">
                             <p class="news__boxCol-title">
@@ -1647,7 +1678,7 @@
                             <p class="news__box-date">20' trước</p>
                         </div>
                     </div>
-                        
+
                 </div>
             </div>
             <!-- BLock 4 __________________________________________ -->
@@ -1745,7 +1776,8 @@
                                 </span>
                             </p>
                             <p class="news__box-date">20' trước</p>
-                            <p class="font-md lora-bold my-10 text-14 text-red text-redfont-md uppercase">Tuần Việt Nam</p>
+                            <p class="font-md lora-bold my-10 text-14 text-red text-redfont-md uppercase">Tuần Việt Nam
+                            </p>
                         </div>
                     </div>
                     <div class="news__box text-15 image__small">
@@ -1770,7 +1802,8 @@
                                 </span>
                             </p>
                             <p class="news__box-date">20' trước</p>
-                            <p class="font-md lora-bold my-10 text-14 text-red text-redfont-md uppercase">Tuần Việt Nam</p>
+                            <p class="font-md lora-bold my-10 text-14 text-red text-redfont-md uppercase">Tuần Việt Nam
+                            </p>
                         </div>
                     </div>
                     <div class="news__box text-15 image__small">
@@ -1795,7 +1828,8 @@
                                 </span>
                             </p>
                             <p class="news__box-date">20' trước</p>
-                            <p class="font-md lora-bold my-10 text-14 text-red text-redfont-md uppercase">Tuần Việt Nam</p>
+                            <p class="font-md lora-bold my-10 text-14 text-red text-redfont-md uppercase">Tuần Việt Nam
+                            </p>
                         </div>
                     </div>
                     <div class="news__box text-15 image__small">
@@ -2065,7 +2099,8 @@
                                     </div>
                                     <!-- Tin liên quan cho nội dung này  -->
                                     <div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
                                             <p class="news__boxCol-title mt-0">
                                                 <a href="">
                                                     Võ Hoàng Yến gây thích thú khi catwalk tựa vũ công đang nhảy múa
@@ -2083,7 +2118,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__highLight-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__highLight-icon show__date">
                                             <p class="news__boxCol-title mt-0">
                                                 <a href="">
                                                     Đạo diễn Trương Nghệ Mưu lần hiếm hoi xuất hiện bên vợ con
@@ -2101,7 +2137,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
                                             <p class="news__boxCol-title mt-0">
                                                 <a href="">
                                                     Tùng Dương, Uyên Linh đưa khán giả trở về ký ức khi hát nhạc The
@@ -2155,7 +2192,8 @@
                                     </div>
                                     <!-- TIn tức liên quan cho nội dung này  -->
                                     <div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
                                             <p class="news__boxCol-title mt-0">
                                                 <a href="">
                                                     Tuyển Việt Nam làm cách mạng: Chông gai và hy vọng cho thầy Park
@@ -2173,7 +2211,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__comment-icon show__date">
                                             <p class="news__boxCol-title mt-0">
                                                 <a href="">
                                                     Đón Kiatisak, vực dậy thế lực một thời, Bầu Đức giàu lên nhanh chóng
@@ -2370,7 +2409,8 @@
                                             </p>
                                             <p class="news__box-date">20' trước</p>
                                         </div>
-                                        <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                        <div
+                                            class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                             <p class="news__boxCol-title mt-0">
                                                 <a href="">
                                                     Trung Quốc trừng phạt Pompeo cùng 27 quan chức thời Trump
@@ -2430,7 +2470,8 @@
                                             </div>
                                             <!-- Tin liên quan cho nội dung này -->
                                             <div>
-                                                <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                                <div
+                                                    class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                                     <p class="news__boxCol-title mt-0">
                                                         <a href="">
                                                             Tìm thấy thi thể kẻ gây ra 2 vụ nổ súng làm chết người ở
@@ -2449,7 +2490,8 @@
                                                     </p>
                                                     <p class="news__box-date">20' trước</p>
                                                 </div>
-                                                <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                                <div
+                                                    class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                                     <p class="news__boxCol-title mt-0">
                                                         <a href="">
                                                             Tòa ra phán quyết, gia đình liệt sĩ vẫn mòn mỏi chờ tiền
@@ -2468,7 +2510,8 @@
                                                     </p>
                                                     <p class="news__box-date">20' trước</p>
                                                 </div>
-                                                <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                                <div
+                                                    class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                                     <p class="news__boxCol-title mt-0">
                                                         <a href="">
                                                             Đi xin việc, cô gái ở Bình Dương bị chủ quán karaoke
@@ -2499,7 +2542,8 @@
                                     <div>
                                         <div class="">
                                             <div class="border-b flex justify-betwen mb-25 pb-10">
-                                                <div class="font-md lora-bold text-18 text-blue uppercase">Box tài trợ</div>
+                                                <div class="font-md lora-bold text-18 text-blue uppercase">Box tài trợ
+                                                </div>
                                                 <div class="text-gray text-sm"></div>
                                             </div>
                                             <div class="">
@@ -2508,7 +2552,8 @@
                                                     <div>
                                                         <div class="news__box show__date show__comment-icon">
                                                             <div class="news__box-image">
-                                                                <img src="./pictures/4-1606839070638452363575 copy 12.png" alt="">
+                                                                <img src="./pictures/4-1606839070638452363575 copy 12.png"
+                                                                    alt="">
                                                             </div>
                                                             <div class="news__box-content">
                                                                 <p class="news__box-title">
@@ -2535,10 +2580,11 @@
                                                 </div>
                                                 <!-- Tin liên quan cho nội dung này -->
                                                 <div>
-                                                    <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                                    <div
+                                                        class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                                         <p class="news__boxCol-title mt-0">
                                                             <a href="">
-                                                           Võ Hoàng Yến gây thích thú khi catwalk tựa vũ công
+                                                                Võ Hoàng Yến gây thích thú khi catwalk tựa vũ công
                                                             </a>
                                                             <span class="news__box-special">
                                                                 <img src="./pictures/hot.png" alt="">
@@ -2553,10 +2599,11 @@
                                                         </p>
                                                         <p class="news__box-date">20' trước</p>
                                                     </div>
-                                                    <div class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
+                                                    <div
+                                                        class="lora-regular mb-20 news__boxCol-content show__date show__comment-icon">
                                                         <p class="news__boxCol-title mt-0">
                                                             <a href="">
-                                                              Bí thư Thái Nguyên: Chủ động trong chuyển đổi số để tạo
+                                                                Bí thư Thái Nguyên: Chủ động trong chuyển đổi số để tạo
                                                             </a>
                                                             <span class="news__box-special">
                                                                 <img src="./pictures/hot.png" alt="">
@@ -2574,7 +2621,7 @@
                                                     <div class="lora-regular mb-20 news__boxCol-content show__date ">
                                                         <p class="news__boxCol-title mt-0">
                                                             <a href="">
-                                                              Tùng Dương, Uyên Linh đưa khán giả trở về ký ức khi hát
+                                                                Tùng Dương, Uyên Linh đưa khán giả trở về ký ức khi hát
                                                             </a>
                                                             <span class="news__box-special">
                                                                 <img src="./pictures/hot.png" alt="">
@@ -2610,7 +2657,8 @@
                                             <div>
                                                 <div class="news__box show__date show__comment-icon">
                                                     <div class="news__box-image">
-                                                        <img src="./pictures/4-1606839070638452363575 copy 13.png" alt="">
+                                                        <img src="./pictures/4-1606839070638452363575 copy 13.png"
+                                                            alt="">
                                                     </div>
                                                     <div class="news__box-content">
                                                         <p class="news__box-title">
@@ -2653,7 +2701,8 @@
                                                         </p>
                                                         <p class="news__box-date">20' trước</p>
                                                     </div>
-                                                    <div class="lora-regular mb-20 news__boxCol-content show__date show__highLight-icon">
+                                                    <div
+                                                        class="lora-regular mb-20 news__boxCol-content show__date show__highLight-icon">
                                                         <p class="news__boxCol-title mt-0">
                                                             <a href="">
                                                                 Tiến sĩ Harvard 37 tuổi là ứng viên trẻ nhất đạt chuẩn
@@ -2698,7 +2747,8 @@
                                 </div>
                                 <!-- Bảo vệ người tiêu dùng -->
                                 <div class="border-b flex justify-betwen mb-25 mt-20 pb-10">
-                                    <div class="font-md lora-bold text-18 text-blue uppercase">Bảo vệ người tiêu dùng</div>
+                                    <div class="font-md lora-bold text-18 text-blue uppercase">Bảo vệ người tiêu dùng
+                                    </div>
                                     <div class="text-gray text-sm"></div>
                                 </div>
                                 <div>
@@ -2828,7 +2878,8 @@
                 <div class="ml-40 w-300">
                     <div class="border-b flex justify-betwen mb-20 pb-10">
                         <div class="font-md lora-bold text-18 text-blue uppercase">
-                            <img src="./pictures/youtobe_icon1.png" alt="" class="mr-10 my-auto" style="transform: translateY(3px);">
+                            <img src="./pictures/youtobe_icon1.png" alt="" class="mr-10 my-auto"
+                                style="transform: translateY(3px);">
                             Video clips
                         </div>
                         <div class="text-gray text-sm"></div>
@@ -3149,7 +3200,8 @@
                             <div class="flex">
                                 <!-- content for multimedia -->
                                 <div class="news__boxCol image__base">
-                                    <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_01_36.jpg" alt=""></div>
+                                    <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_01_36.jpg"
+                                            alt=""></div>
                                     <div class="news__boxCol-content">
                                         <p class="news__boxCol-title">
                                             <a href="">
@@ -3170,7 +3222,8 @@
                                     </div>
                                 </div>
                                 <div class="news__boxCol image__base">
-                                    <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_01_38.jpg"  alt=""></div>
+                                    <div class="news__boxCol-image"><img src="./pictures/HomeVietNamNet_new_01_38.jpg"
+                                            alt=""></div>
                                     <div class="news__boxCol-content">
                                         <p class="news__boxCol-title">
                                             <a href="">
@@ -3328,7 +3381,7 @@
                         <div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__comment-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   1
+                                    1
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3351,7 +3404,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__live-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   2
+                                    2
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3374,7 +3427,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__comment-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   3
+                                    3
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3397,7 +3450,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__comment-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   4
+                                    4
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3420,7 +3473,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20">
                                 <div class="lora-medium news__box-image text-35">
-                                   5
+                                    5
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3443,7 +3496,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__comment-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   6
+                                    6
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3466,7 +3519,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__highLight-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   7
+                                    7
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3489,7 +3542,7 @@
                             </div>
                             <div class="text-15 border-b-gray lora-regular mx-30 news__box pb-20 show__comment-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   8
+                                    8
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3512,7 +3565,7 @@
                             </div>
                             <div class="lora-regular mb-0 mx-30 news__box pb-20 show__comment-icon">
                                 <div class="lora-medium news__box-image text-35">
-                                   9
+                                    9
                                 </div>
                                 <div class="news__box-content">
                                     <p class="news__box-title">
@@ -3569,8 +3622,8 @@
                                     <div class="news__box-content">
                                         <p class="news__box-title">
                                             <a href="">
-                                               Bí thư Hà Nội chọn người tín nhiệm cao nhất làm Phó chủ tịch 
-                                               UBND TP
+                                                Bí thư Hà Nội chọn người tín nhiệm cao nhất làm Phó chủ tịch
+                                                UBND TP
                                             </a>
                                             <span class="news__box-special">
                                                 <img src="./pictures/hot.png" alt="">
@@ -3591,7 +3644,7 @@
                                     <div class="lora-regular mb-20 news__boxCol-content show__date">
                                         <p class="news__boxCol-title">
                                             <a href="">
-                                                Cảnh thông tươi bán theo cân 
+                                                Cảnh thông tươi bán theo cân
                                                 dân Hà Nội tới tấp ập mua
                                             </a>
                                             <span class="news__box-special">
@@ -3610,7 +3663,7 @@
                                     <div class="lora-regular mb-20 news__boxCol-content show__date">
                                         <p class="news__boxCol-title">
                                             <a href="">
-                                                Chọn người tín nhiệm cao nhất làm Phó chủ tịch 
+                                                Chọn người tín nhiệm cao nhất làm Phó chủ tịch
                                                 UBND TP
                                             </a>
                                             <span class="news__box-special">
@@ -3629,8 +3682,8 @@
                                     <div class="lora-regular mb-20 news__boxCol-content show__date">
                                         <p class="news__boxCol-title">
                                             <a href="">
-                                                Có hơn 65 triệu ca toàn cầu LHQ chỉ trích các 
-                                               nước coi thường Covid-19
+                                                Có hơn 65 triệu ca toàn cầu LHQ chỉ trích các
+                                                nước coi thường Covid-19
                                             </a>
                                             <span class="news__box-special">
                                                 <img src="./pictures/hot.png" alt="">
@@ -3733,8 +3786,8 @@
                                         <div class="news__box-content">
                                             <p class="news__box-title">
                                                 <a href="">
-                                                   Facebook thừa nhận sai lầm tại Úc , cam kết trả 1 tỉ USD cho 
-                                                   tin tức
+                                                    Facebook thừa nhận sai lầm tại Úc , cam kết trả 1 tỉ USD cho
+                                                    tin tức
                                                 </a>
                                                 <span class="news__box-special">
                                                     <img src="./pictures/hot.png" alt="">
@@ -3805,39 +3858,45 @@
                                 <div>
                                     <img src="./pictures/tang_thanh_ha.png" alt="">
                                 </div>
-                                <div><a href="" class="block border-b-gray font-md no-underline py-20 text-black">Tăng
+                                <div><a href=""
+                                        class="block border-b-gray lora-medium no-underline py-20 text-black">Tăng
                                         Thanh Hà</a></div>
-                                <div class="mt-10">Diễn viên</div>
+                                <div class="mt-10 notosan-regular text-12">Diễn viên</div>
                             </div>
                             <div class="my-20 pr-20">
                                 <div>
                                     <img src="./pictures/HomeVietNamNet_new_01_58.jpg" alt="">
                                 </div>
-                                <div><a href="" class="block border-b-gray font-md no-underline py-20 text-black">
-                                    Trần Tiểu Vy
-                                </a></div>
-                                <div class="mt-10">Hoa hậu</div>
+                                <div><a href="" class="block border-b-gray lora-medium no-underline py-20 text-black">
+                                        Trần Tiểu Vy
+                                    </a></div>
+                                <div class="mt-10 notosan-regular text-12">Hoa hậu</div>
                             </div>
                             <div class="my-20 pr-20">
                                 <div>
                                     <img src="./pictures/HomeVietNamNet_new_01_60.jpg" alt="">
                                 </div>
-                                <div><a href="" class="block border-b-gray font-md no-underline py-20 text-black">Hồ Ngọc Hà</a></div>
-                                <div class="mt-10">Ca sĩ</div>
+                                <div><a href="" class="block border-b-gray lora-medium no-underline py-20 text-black">Hồ
+                                        Ngọc Hà</a></div>
+                                <div class="mt-10 notosan-regular text-12">Ca sĩ</div>
                             </div>
                             <div class="my-20 pr-20">
                                 <div>
                                     <img src="./pictures/HomeVietNamNet_new_01_62.jpg" alt="">
                                 </div>
-                                <div><a href="" class="block border-b-gray font-md no-underline py-20 text-black">Thanh Hằng</a></div>
-                                <div class="mt-10">Người mẫu</div>
+                                <div><a href=""
+                                        class="block border-b-gray lora-medium no-underline py-20 text-black">Thanh
+                                        Hằng</a></div>
+                                <div class="mt-10 notosan-regular text-12">Người mẫu</div>
                             </div>
                             <div class="my-20 pr-20">
                                 <div>
                                     <img src="./pictures/HomeVietNamNet_new_01_64.jpg" alt="">
                                 </div>
-                                <div><a href="" class="block border-b-gray font-md no-underline py-20 text-black">Tóc tiên</a></div>
-                                <div class="mt-10">Ca sĩ</div>
+                                <div><a href=""
+                                        class="block border-b-gray lora-medium no-underline py-20 text-black">Tóc
+                                        tiên</a></div>
+                                <div class="mt-10 notosan-regular text-12">Ca sĩ</div>
                             </div>
                         </div>
                     </div>
@@ -3851,8 +3910,8 @@
                     <div class="lora-regular mb-20 news__boxCol-content">
                         <p class="news__boxCol-title">
                             <a href="">
-                                Có hơn 65 triệu ca toàn cầu LHQ chỉ trích các 
-                               nước coi thường Covid-19
+                                Có hơn 65 triệu ca toàn cầu LHQ chỉ trích các
+                                nước coi thường Covid-19
                             </a>
                             <span class="news__box-special">
                                 <img src="./pictures/hot.png" alt="">
@@ -3867,7 +3926,7 @@
                         </p>
                         <p class="news__box-date">20' trước</p>
                     </div>
-                    
+
                 </div>
             </div>
             <!-- Block 10 -->
@@ -3936,7 +3995,7 @@
                 </div>
                 <div>
                     <ul>
-                        <li><a class="bg-white-radius" href="">VN | EN</a></li>
+                        <li><a class="bg-white-radius text-11" href="">VN | EN</a></li>
                     </ul>
                 </div>
             </div>
@@ -3961,14 +4020,16 @@
                 </div>
                 <div>
                     <div>
-                        <p>LIÊN HỆ QUẢNG CÁO</p>
-                        <p>Hà Nội. Hotline: <b>0919 405 885</b> </p>
-                        <p>Tp.HCM. Hotline: <b>0919 435 885</b></p>
+                        <p class="notosan-bold text-blue">LIÊN HỆ QUẢNG CÁO</p>
+                        <p>Hà Nội. Hotline: <b class="notosan-bold text-white">0919 405 885</b> </p>
+                        <p>Tp.HCM. Hotline: <b class="notosan-bold text-white">0919 435 885</b></p>
                         <p>Email : contact@vietnamnet.vn </p>
                     </div>
                     <div>
-                        <p>Xem thông tin chi tiết: <a href="http://vads.vn/">http://vads.vn/</a></p>
-                        <p>Hỗ trợ kỹ thuật: <a href="support@tech.vietnamnet.vn">support@tech.vietnamnet.vn</a></p>
+                        <p>Xem thông tin chi tiết: <a href="http://vads.vn/"
+                                class="no-underline notosan-bold text-gray-400">http://vads.vn/</a></p>
+                        <p>Hỗ trợ kỹ thuật: <a href="support@tech.vietnamnet.vn"
+                                class="no-underline notosan-bold text-gray-400">support@tech.vietnamnet.vn</a></p>
                     </div>
                 </div>
                 <div>
@@ -3980,10 +4041,23 @@
         </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="./js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $('.slider_00').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                variableWidth: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                prevArrow: ('.tag__name-prev'),
+                nextArrow: ('.tag__name-next')
+            })
             $('.slider_01').slick({
                 dots: true,
                 infinite: true,
@@ -3991,7 +4065,9 @@
                 slidesToShow: 5,
                 slidesToScroll: 5,
                 autoplay: true,
-                autoplaySpeed: 3000
+                autoplaySpeed: 3000,
+                prevArrow: false,
+                nextArrow: false
             })
             $('.slider_02').slick({
                 infinite: true,
